@@ -1,0 +1,21 @@
+[project]
+name = "robot-current-alerts"
+version = "1.0.0"
+description = "Linear-regression baselines and Alert/Error rules for robot joint current, streamed through Neon PostgreSQL"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "dash>=2.18.0",
+    "ipykernel>=7.3.0",
+    "ipython>=9.17.1",
+    "jupyter>=1.1.1",
+    "kaleido>=1.0",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.3",
+    "pandas>=3.0.6",
+    "plotly>=7.1.0",
+    "psycopg[binary]>=3.3.6",
+    "python-dotenv>=1.2.3",
+    "scikit-learn>=1.9.1",
+    "sqlalchemy>=2.0.54",
+]

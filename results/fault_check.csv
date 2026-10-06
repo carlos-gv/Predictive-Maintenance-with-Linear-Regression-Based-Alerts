@@ -1,0 +1,7 @@
+fault,axis,expected,start_s,end_s,found,correct
+short spike,axis_2,nothing,84963.018,84966.814,nothing,True
+mild overload,axis_4,Alert,85718.266,85739.217,Alert,True
+strong overload,axis_6,Alert+Error,86663.384,86699.196,Alert+Error,True
+slow climb,axis_3,Alert+Error,87608.788,87701.48,Alert+Error,True
+interrupted,axis_1,nothing,88554.539,88569.68,nothing,True
+recording gap,axis_8,nothing,89311.11,89333.817,nothing,True
